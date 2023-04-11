@@ -1,0 +1,102 @@
+.sesion-type .row .single-sess{
+    background-color: #8e1f18;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .header-nav .nav-item ul li:hover{
+    background: #f44236;
+    opacity: 0.7;
+    color: aliceblue;
+}
+header .header-nav .nav-item ul li:hover:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 33px 15px;
+    border-color: transparent transparent  transparent;
+}
+header .header-nav .nav-item ul li:hover:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 34px 15px 0 0;
+    border-color:  transparent transparent transparent;
+}
+header .header-top .right-item ul li{
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+header .header-top .right-item ul li:hover{
+    transform: rotate(360deg);
+}
+.our-blog{
+    
+    
+    padding: 70px 0;
+}
+.our-blog .blog-row{
+    width: 96%;
+    margin: 100px auto;
+    display: flex ;
+}
+.our-blog .blog-row .single-blog{
+    width: 350px;
+        height: 600px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        padding: 8px 20px;
+        margin: 0 8px;
+        
+        
+}
+.our-blog .blog-row .single-blog:hover{
+    transform: translateY(-60px);
+}
+.our-blog .blog-row .single-blog .blog-detail{
+    text-align: center;
+}
+.our-blog .blog-row .single-blog .blog-detail h4{
+    color: #000;
+    transition: 0.3s;
+}
+.our-blog .blog-row .single-blog:hover .blog-detail h4{
+    transform: translateY(-40px);
+}
+.our-blog .blog-row .single-blog .blog-detail .right-icon ul{
+    margin: 5px 10px;
+        font-size: 15px;
+        opacity: 0;
+        cursor: pointer;
+        transition: 0.3s;
+}
+.our-blog .blog-row .single-blog:hover .right-icon ul{
+    opacity: 1;
+    transform: translateY(-8px);
+}
+.our-blog .blog-row .single-blog .blog-detail p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    transition: 0.3s;
+}
+.our-blog .blog-row .single-blog:hover .blog-detail p{
+    margin-top: 4px;
+    background-color: #8e1f18;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+
+
